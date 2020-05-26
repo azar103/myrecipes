@@ -102,7 +102,7 @@ class RecipeForm extends Component {
                     <label htmlFor="ingredients">Les Ingredients</label>
                     <textarea   className="form-control" 
                                 rows="4"
-                                placeholder="Ajouter un ingredient par ligne"
+                                placeholder="Ajouter un ingredient par virgule"
                                 value={this.state.ingredients}
                                 onChange={this._handleChangeIngredients}
                                 />
