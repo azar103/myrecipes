@@ -10,12 +10,16 @@ class Authentification extends Component {
     render(){
         return(
             <div class="slide">
-          <img src="https://digitalcenturysf.com/themes/chili/wordpress/wp-content/uploads/2016/06/slide1.jpg"
+          <img src="https://foodhub.modeltheme.com/wp-content/uploads/2020/02/foodhub-slider-main-food-v4.jpg?id=20741"
             alt="img-auth"
           class="img-auth" />
+         <div className="container-auth">
          <h1 id="title-auth">Profiter de la cuisine</h1>
+         <input type="email" className="input"  placeholder="email"/>
+         <input type="password" className="input password"  placeholder="password"/>
          <button id="btn-auth" className="btn btn-success btn-xs"
           >Se connecter</button>
+         </div> 
          </div>
 
         )

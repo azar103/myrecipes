@@ -11,7 +11,7 @@
     top: 1;
     left: 0;
     margin: 0;
-  
+
   }
   .img-auth {
       background-size: cover;
@@ -21,25 +21,42 @@
   }
   #btn-auth {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-size: 16px;
     padding: 12px 24px;
-    border: none;
+    border: none ;
     cursor: pointer;
     border-radius: 5px;
   }
+  #btn-auth {
+    background-color: transparent !important;
+    border: 2px solid white !important;
+  }
+  #btn-auth:hover {
+    background-color: aliceblue !important;
+    color: #528F2D !important;
+    transition: 1s;
+  }
+
   #title-auth{
     position: absolute;
-    top: 30%;
-    left: 38%;
+    top: 10%;
+    left: 34%;
+    text-align: center;
     font-family: Arial;
     text-shadow: rgba(0, 0, 0, 0.35) 10px 10px 25px;
     line-height: 61px;
     color: aliceblue;
   }
+  .container-auth {
+    max-width: 600px;
+    border: 2px solid white;
+    display: flex;
+  }
+
   
   @media screen and (max-width: 414px) {
     /* Specific to this particular image */
@@ -52,6 +69,30 @@
    }
   
   }
+  .input {
+    width: 300px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    background-color: inherit;
+    height: 40px;
+    position: absolute;
+    top: 20%;
+    left: 34.3%;
+    color: #DDD;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .password {
+    position: absolute;
+    top: 30%
+  }
+
+  ::placeholder {
+    color: #D0D0D0
+  }
+
+  
   
   @media screen and (max-width: 741px) {
     /* Specific to this particular image */

@@ -51,6 +51,7 @@
     height: 40px;
     border: none;
     text-align: center;
+    outline: none;
   }
 
   #btn_search {
