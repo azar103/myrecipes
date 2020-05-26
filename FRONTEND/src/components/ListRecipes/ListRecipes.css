@@ -1,0 +1,107 @@
+.title {
+    text-align: left;
+    color: #F43192;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    margin-left: 44px;
+}
+
+
+.title {
+    text-align: left;
+    color: #F43192;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+  }
+  
+  .recipes-block {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  
+  .addLink {
+    color: #F4319F;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addLink:hover {
+    text-decoration: none;
+    color: #F4319F;
+  }
+
+  .searchedinput {
+    display: block;
+    margin: auto;
+    width: 400px;
+    border-radius: 5%;
+    height: 40px;
+    border: none;
+    text-align: center;
+  }
+
+  #btn_search {
+    height: 40px;
+  }
+
+  
+
+ 
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#DCDCDC;
+    font-weight: 800;
+  }
+
+  #block-recipes {
+    margin-top: 40px;
+  }
+
+  #search_block{
+    background-image: url('https://i1.wp.com/demo.wpzoom.com/foodica/files/2013/01/antipasto_066_crop-e1459676473936.jpg?resize=750%2C500&ssl=1');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4D4D8;
+
+  }
+
+  .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the form icons */
+  .icon {
+    padding: 10px;
+    min-width: 50px;
+    text-align: left;
+  }
+
+  .fa-search {
+    color: black;
+  }
+
+  .input-group i { 
+    position: absolute; 
+    margin-top: 9px;
+
+} 
+

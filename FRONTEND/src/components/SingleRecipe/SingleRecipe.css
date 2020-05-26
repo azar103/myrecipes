@@ -1,0 +1,55 @@
+.single-recipe-img {
+    height: 400px;
+    background-size: cover;
+  
+  }
+  h1{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 60px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+  
+  }
+  
+  .vertical-align{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .item {
+    list-style-type: none;
+  }
+  
+  ul {
+     padding: 0;
+  }
+  li{
+    list-style-type: none;
+    font-size: 1.2em;
+  }
+  #key {
+    color: #e40c78;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  
+  .margin-div {
+    margin: 50px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  #step {
+    margin-left:  10px;
+  }
