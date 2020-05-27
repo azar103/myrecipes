@@ -1,6 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 import { Redirect } from 'react-router-dom'
+import  './UserForm.scss'
+import Header from '../Header/Header'
 class UserForm extends React.Component {
     // eslint-disable-next-line no-useless-constructor
     constructor(props) {
@@ -50,6 +52,7 @@ class UserForm extends React.Component {
        else {
         return(
            <div>
+            <Header />    
             <form className="col-sm-8 col-sm-offset-2" onSubmit={this._signUp}>
             <div className="form-group">
               <label htmlFor="email">Email</label>

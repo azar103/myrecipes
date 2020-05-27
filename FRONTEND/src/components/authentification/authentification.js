@@ -1,5 +1,5 @@
 import React , {Component} from 'react'
-import './authentification.css'
+import './authentification.scss'
 
 class Authentification extends Component {
     // eslint-disable-next-line no-useless-constructor

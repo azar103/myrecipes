@@ -1,7 +1,8 @@
 import React , {Component} from 'react'
 import axios from 'axios'
 import { Redirect } from 'react-router-dom'
-
+import  './RecipeForm.scss'
+import Header from '../Header/Header'
 
 class RecipeForm extends Component {
     // eslint-disable-next-line no-useless-constructor
@@ -67,6 +68,8 @@ class RecipeForm extends Component {
             )
         } else {
             return(
+                <div>
+                   <Header /> 
                    <form className="col-sm-8 col-sm-offset-2" onSubmit={this._postRecipe}>
                    <div className="form-group">
                      <label htmlFor="title">Nom de la recette</label>
@@ -118,7 +121,7 @@ class RecipeForm extends Component {
                  </div> 
                  <button className="btn btn-primary" type="submit" value="Soumettre" >Soumettre</button>
                  </form> 
-                
+                 </div>
              )
         }
         

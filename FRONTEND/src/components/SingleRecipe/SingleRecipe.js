@@ -2,7 +2,7 @@ import React , {Component} from 'react'
 import { Link } from 'react-router-dom'
 import { getRecipe } from '../../Helpers/functions';
 import recipes from '../../Helpers/recipes';
-import './SingleRecipe.css'
+import './SingleRecipe.scss'
 import axios from 'axios'
 class SingleRecipe extends Component {
     constructor(props){

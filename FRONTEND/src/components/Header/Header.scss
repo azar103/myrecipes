@@ -1,0 +1,19 @@
+.is-active {
+    background-color: gold;
+    color:Black ;
+    font-weight:bold;
+}
+.navbar-default {
+    background-color: var(--skin-color-primary) !important;
+    border-radius: 20px;
+
+}
+
+.navbar-default .container-fluid  .navbar-nav > li > Link {
+    color: #FFFFFF;
+}
+
+.is-active {
+    background-color: white !important;
+}
+   

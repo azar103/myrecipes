@@ -1,5 +1,5 @@
 import React  from 'react'
-import './RecipeItem.css'
+import './RecipeItem.scss'
 import { Link, Redirect } from 'react-router-dom';
 import axios from 'axios'
 
